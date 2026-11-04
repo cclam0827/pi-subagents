@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "defaultModel": "auto",
+  "agentScope": "user",
+  "childExtensions": [],
+  "confirmMax": true,
+  "limits": {
+    "maxDepth": 2,
+    "maxChildrenPerAgent": 3,
+    "maxAgentsPerRun": 8,
+    "maxConcurrent": 4
+  },
+  "levels": {
+    "fast": {
+      "thinking": "low",
+      "candidates": ["anthropic/claude-haiku-5-5"]
+    },
+    "balanced": {
+      "thinking": "medium",
+      "candidates": ["anthropic/claude-sonnet-5-5"]
+    },
+    "deep": {
+      "thinking": "high",
+      "candidates": ["anthropic/claude-opus-5-5"]
+    },
+    "max": {
+      "thinking": "max",
+      "candidates": ["anthropic/claude-fable-5-1"]
+    }
+  }
+}

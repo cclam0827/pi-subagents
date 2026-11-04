@@ -1,0 +1,4 @@
+# Built-in override: unspecified tools, isolation, and instructions stay inherited.
+# Copy as explore.yaml into your user agents directory.
+name: explore
+model: fast

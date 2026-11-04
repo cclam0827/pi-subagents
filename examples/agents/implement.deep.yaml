@@ -1,0 +1,4 @@
+# Built-in override for difficult implementation work.
+# Copy as implement.yaml into your user agents directory.
+name: implement
+model: deep

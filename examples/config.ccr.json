@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "defaultModel": "auto",
+  "agentScope": "user",
+  "childExtensions": [
+    "git:github.com/cclam0827/pi-ccr-provider"
+  ],
+  "confirmMax": true,
+  "levels": {
+    "fast": {
+      "thinking": "low",
+      "candidates": ["ccr/CPA/claude-haiku-5-5"]
+    },
+    "balanced": {
+      "thinking": "medium",
+      "candidates": ["ccr/CPA/claude-sonnet-5-5"]
+    },
+    "deep": {
+      "thinking": "high",
+      "candidates": ["ccr/CPA/claude-opus-5-5"]
+    },
+    "max": {
+      "thinking": "max",
+      "candidates": ["ccr/CPA/claude-fable-5-1"]
+    }
+  }
+}

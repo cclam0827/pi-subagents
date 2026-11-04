@@ -177,6 +177,8 @@ The `level` parameter is independent and can force a level while leaving `model:
 
 ## Configuration
 
+Ready-to-copy presets for Anthropic, OpenAI Codex, CCR, mixed providers, trusted-project policy, and eight role variants are in [`examples/`](./examples/README.md).
+
 Built-in definitions stay inside the Git package. User and project files are overlays, so package updates never overwrite custom configuration.
 
 ```text
@@ -197,6 +199,8 @@ Git package
 Pi's `PI_CODING_AGENT_DIR` setting is respected; `~/.pi/agent` is only the default.
 
 ### Example `config.json`
+
+See [`examples/`](./examples/README.md) for complete downloadable configs and copy/merge recipes. The abbreviated example below shows the available shape.
 
 ```json
 {

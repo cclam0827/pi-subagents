@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "allowedTools": ["read", "grep", "find", "ls", "bash", "subagent"],
+  "limits": {
+    "maxDepth": 1,
+    "maxChildrenPerAgent": 2,
+    "maxAgentsPerRun": 4,
+    "maxConcurrent": 2
+  }
+}

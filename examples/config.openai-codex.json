@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "defaultModel": "auto",
+  "agentScope": "user",
+  "childExtensions": [],
+  "confirmMax": true,
+  "levels": {
+    "fast": {
+      "thinking": "low",
+      "candidates": ["openai-codex/gpt-5.6-terra"]
+    },
+    "balanced": {
+      "thinking": "medium",
+      "candidates": ["openai-codex/gpt-5.6-luna"]
+    },
+    "deep": {
+      "thinking": "high",
+      "candidates": ["openai-codex/gpt-5.6-sol"]
+    },
+    "max": {
+      "thinking": "max",
+      "candidates": ["openai-codex/gpt-5.6-sol"]
+    }
+  }
+}

@@ -17,6 +17,7 @@
   "files": [
     "src",
     "agents",
+    "examples",
     "README.md",
     "LICENSE"
   ],

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "defaultModel": "auto",
+  "agentScope": "user",
+  "childExtensions": [],
+  "confirmMax": true,
+  "levels": {
+    "fast": {
+      "thinking": "low",
+      "candidates": [
+        "anthropic/claude-haiku-5-5",
+        "openai-codex/gpt-5.6-terra"
+      ]
+    },
+    "balanced": {
+      "thinking": "medium",
+      "candidates": [
+        "anthropic/claude-sonnet-5-5",
+        "openai-codex/gpt-5.6-luna"
+      ]
+    },
+    "deep": {
+      "thinking": "high",
+      "candidates": [
+        "anthropic/claude-opus-5-5",
+        "openai-codex/gpt-5.6-sol"
+      ]
+    },
+    "max": {
+      "thinking": "max",
+      "candidates": [
+        "anthropic/claude-fable-5-1",
+        "openai-codex/gpt-5.6-sol"
+      ]
+    }
+  }
+}
